@@ -19,7 +19,7 @@ ghc-options:
   - -fwarn-unused-do-bind
 
 dependencies:
-  - base >= 4.7 && < 5
+  - base >= 4.6 && < 5
   - optparse-applicative
   - text
 
