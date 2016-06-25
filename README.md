@@ -5,6 +5,20 @@
 > [`optparse-applicative`](https://hackage.haskell.org/package/optparse-applicative)
 > to deal with [`Data.Text`](https://hackage.haskell.org/package/text).
 
+## Example
+
+```haskell
+data Options = Options { text    :: T.Text
+                       , textArg :: T.Text
+                       , textOpt :: T.Text }
+  deriving (Eq, Show)
+
+optParser :: Opt.Parser Options
+optParser = Options <$> Opt.argument OptT.text ( Opt.metavar "TEXT" )
+                 <*> OptT.textArgument ( Opt.metavar "TEXT2" )
+                 <*> OptT.textOption ( Opt.long "textopt" )
+```
+
 ## Status
 
 About to be published.
