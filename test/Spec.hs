@@ -1,6 +1,9 @@
 {-# LANGUAGE OverloadedStrings #-}
 
+-- For base < 4.8
 import           Control.Applicative       ((<$>), (<*>))
+import           Data.Monoid               (mempty)
+
 import qualified Data.Text                 as T
 import qualified Options.Applicative       as Opt
 import           Options.Applicative.Extra (execParserPure, getParseResult)
