@@ -5,6 +5,7 @@ module Options.Applicative.Text
   , textOption
   , textArgument ) where
 
+import           Control.Applicative       ((<$>))
 import qualified Data.Text                 as T
 import qualified Options.Applicative       as Opt
 import qualified Options.Applicative.Types as Opt
