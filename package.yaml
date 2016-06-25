@@ -1,0 +1,37 @@
+name: optparse-text
+version: 0.1.0.0
+synopsis: Data.Text helpers for optparse-applicative
+maintainer: Pascal Hartig <i@passy.me>
+license: BSD3
+github: passy/optparse-text
+category: Development
+
+extra-source-files:
+  - stack.yaml
+  - README.md
+
+ghc-options:
+  - -Wall
+  - -fwarn-tabs
+  - -fwarn-incomplete-record-updates
+  - -fwarn-monomorphism-restriction
+  - -fwarn-unused-do-bind
+
+dependencies:
+  - base >= 4.7 && < 5
+  - optparse-applicative
+  - text
+
+library:
+  source-dirs: src
+  exposed-modules:
+    Options.Applicative.Text
+
+tests:
+  spec:
+    main: Spec.hs
+    source-dirs: test
+    ghc-options: -threaded -rtsopts -with-rtsopts=-N
+    dependencies:
+      - optparse-text
+      - hspec
