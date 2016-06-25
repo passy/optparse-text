@@ -8,6 +8,10 @@
 ## Example
 
 ```haskell
+import qualified Data.Text                 as T
+import qualified Options.Applicative       as Opt
+import qualified Options.Applicative.Text  as OptT
+
 data Options = Options { text    :: T.Text
                        , textArg :: T.Text
                        , textOpt :: T.Text }
