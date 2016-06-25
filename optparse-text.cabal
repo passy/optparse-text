@@ -28,7 +28,7 @@ library
       src
   ghc-options: -Wall -fwarn-tabs -fwarn-incomplete-record-updates -fwarn-monomorphism-restriction -fwarn-unused-do-bind
   build-depends:
-      base >= 4.7 && < 5
+      base >= 4.6 && < 5
     , optparse-applicative
     , text
   exposed-modules:
@@ -44,7 +44,7 @@ test-suite spec
       test
   ghc-options: -Wall -fwarn-tabs -fwarn-incomplete-record-updates -fwarn-monomorphism-restriction -fwarn-unused-do-bind -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      base >= 4.7 && < 5
+      base >= 4.6 && < 5
     , optparse-applicative
     , text
     , optparse-text

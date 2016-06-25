@@ -2,6 +2,7 @@ name: optparse-text
 version: 0.1.0.0
 synopsis: Data.Text helpers for optparse-applicative
 maintainer: Pascal Hartig <i@passy.me>
+description: Please see README.md
 license: BSD3
 github: passy/optparse-text
 category: Development
