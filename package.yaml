@@ -5,6 +5,7 @@ maintainer: Pascal Hartig <i@passy.me>
 license: BSD3
 github: passy/optparse-text
 category: Development
+tested-with: GHC == 7.6.3, GHC == 7.8.4, GHC == 7.10.3, GHC == 8.0.1
 
 extra-source-files:
   - stack.yaml
