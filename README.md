@@ -1,5 +1,7 @@
 # optparse-text
 [![Build Status](https://travis-ci.org/passy/optparse-text.svg?branch=master)](https://travis-ci.org/passy/optparse-text)
+[![Hackage](http://img.shields.io/hackage/v/optparse-text.svg)](https://hackage.haskell.org/package/optparse-text)
+
 
 > Helpers for
 > [`optparse-applicative`](https://hackage.haskell.org/package/optparse-applicative)
