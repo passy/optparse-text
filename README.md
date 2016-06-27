@@ -22,8 +22,8 @@ data Options = Options { text    :: T.Text
 
 optParser :: Opt.Parser Options
 optParser = Options <$> Opt.argument OptT.text ( Opt.metavar "TEXT" )
-                 <*> OptT.textArgument ( Opt.metavar "TEXT2" )
-                 <*> OptT.textOption ( Opt.long "textopt" )
+                    <*> OptT.textArgument ( Opt.metavar "TEXT2" )
+                    <*> OptT.textOption ( Opt.long "textopt" )
 ```
 
 ## Status
