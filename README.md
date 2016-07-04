@@ -26,10 +26,6 @@ optParser = Options <$> Opt.argument OptT.text ( Opt.metavar "TEXT" )
                     <*> OptT.textOption ( Opt.long "textopt" )
 ```
 
-## Status
-
-About to be published.
-
 ## Alternatives
 
 You may want to consider using
