@@ -1,6 +1,7 @@
 # optparse-text
 [![Build Status](https://travis-ci.org/passy/optparse-text.svg?branch=master)](https://travis-ci.org/passy/optparse-text)
 [![Hackage](http://img.shields.io/hackage/v/optparse-text.svg)](https://hackage.haskell.org/package/optparse-text)
+[![Stackage LTS](http://stackage.org/package/optparse-text/badge/lts)](http://stackage.org/lts/package/optparse-text)
 [![Stackage Nightly](http://stackage.org/package/optparse-text/badge/nightly)](http://stackage.org/nightly/package/optparse-text)
 
 
